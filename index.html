@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div  class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5">
+        <p class="tulisan_login">SILAHKAN LOGIN</p>
+        <form action="">
+            <label for="Username">
+                <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Username</span>
+                <input type="email" id="email" placeholder="masukan username" class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"/>
+            <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Username tidak valid </p>
+            </label>
+			<label for="Password">
+                <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Password</span>
+                <input type="email" id="email" placeholder="masukan password" class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"/>
+            <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Password tidak valid </p>
+            </label>
+			<button type="Login" class="py-2 px-4 bg-sky-300 rounded">LOGIN</button>
+		</form>
+    </div>
+</body>
+</html>
